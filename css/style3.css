@@ -1,0 +1,96 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+}
+header
+{
+    padding: 10px 100px;
+    box-sizing: border-box;
+    color: #f00;
+    
+}
+.name{
+    text-align: center;
+}
+.logo
+{
+    width: 100px;   
+    height: 100px;
+}
+
+#dev1{
+    position: sticky;
+    top: 0;
+}
+#div1 ul li{
+    text-decoration: none;
+    float: left;
+}
+#div1 ul{
+    list-style-type: none;
+}
+#div1 ul li{
+    width: 210px;background-color:black;
+    border: 1px solid red;
+    text-align: center;
+    line-height: 25px;
+    position: relative;
+}
+#div1 ul ul{display: none;
+    position: absolute;
+    left: -41px;
+} 
+#div1 ul li a{text-decoration: none;
+    color: white;
+} 
+#div1 ul li a:hover{
+    background-color:rgb(252, 19, 19);
+}
+
+#div1 ul :hover > ul {
+    display: block;
+}
+#div1 ul ul ul {
+    position: absolute;
+    top: 0px;
+    left: 170px;
+}
+section.sec1{
+    color: red;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: x-large;
+    border-style: double;
+    border-width:1ch; 
+    font-size: x-large;      
+}
+section.sec2{
+    color:black;
+    margin-top: 50px;
+    background-color: red;
+    border:1px solid;
+    
+}
+section.sec3{
+    color:red;
+    font-size: 20px;
+}
+section.sec4
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../suc.jpg);
+    background-size:cover;
+}
+section.sec5
+{   
+    margin-top: 20px;
+    color:black;
+    padding: 10px;
+    text-align: center;
+    border-style: outset;
+    background-color:red;
+}
